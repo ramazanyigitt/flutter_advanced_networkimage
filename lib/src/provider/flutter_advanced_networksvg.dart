@@ -39,7 +39,8 @@ class AdvancedNetworkSvg extends PictureProvider<AdvancedNetworkSvg> {
         assert(useDiskCache != null),
         assert(retryLimit != null),
         assert(retryDuration != null),
-        assert(printError != null);
+        assert(printError != null),
+        super(colorFilter);
 
   /// The URL from which the image will be fetched.
   final String url;
